@@ -1,5 +1,0 @@
-services:
-     ds.asset.migration.extension.asset:
-        class: Ds\Bundle\AssetBundle\Migration\Extension\AssetExtension
-        tags:
-            - { name: oro_migration.extension, extension_name: asset }

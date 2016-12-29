@@ -1,9 +1,0 @@
-ds:
-    accountuserpersona:
-        persona:
-            page:
-                account:
-                    index:
-                        title: My Personas
-                    view:
-                        title: My Persona

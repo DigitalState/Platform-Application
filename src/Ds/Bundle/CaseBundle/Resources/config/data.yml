@@ -1,7 +1,0 @@
-services:
-    ds.case.data.resolver.case:
-        class: Ds\Bundle\CaseBundle\Data\Resolver\CaseResolver
-        arguments:
-            - @ds.case.manager.case
-        tags:
-            - { name: ds.data.resolver }

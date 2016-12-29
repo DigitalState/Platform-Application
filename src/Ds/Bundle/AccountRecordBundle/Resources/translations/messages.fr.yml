@@ -1,6 +1,0 @@
-ds:
-    accountrecord:
-        case:
-            record:
-                widget:
-                    entity: Mes enregistrements

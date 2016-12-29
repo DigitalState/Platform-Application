@@ -1,3 +1,0 @@
-ds_case_api_rest_case:
-    resource: Ds\Bundle\CaseBundle\Controller\Api\Rest\CaseController
-    type: rest

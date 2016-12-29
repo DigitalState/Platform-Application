@@ -1,4 +1,0 @@
-ds_accountuserpersona_account:
-    resource: @DsAccountUserPersonaBundle/Controller/Account
-    type: annotation
-    prefix: %ds.account.prefix%

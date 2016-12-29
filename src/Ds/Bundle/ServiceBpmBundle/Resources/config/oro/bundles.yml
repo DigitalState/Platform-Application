@@ -1,2 +1,0 @@
-bundles:
-    - { name: Ds\Bundle\ServiceBpmBundle\DsServiceBpmBundle, priority: 30 }

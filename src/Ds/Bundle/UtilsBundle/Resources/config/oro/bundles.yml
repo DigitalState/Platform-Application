@@ -1,2 +1,0 @@
-bundles:
-    - { name: Ds\Bundle\UtilsBundle\DsUtilsBundle, priority: 10 }

@@ -1,3 +1,0 @@
-ds_asset_api_rest_asset:
-    resource: Ds\Bundle\AssetBundle\Controller\Api\Rest\AssetController
-    type: rest

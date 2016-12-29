@@ -1,6 +1,0 @@
-services:
-    ds.utils.twig.extension.inflector:
-        class: Ds\Bundle\UtilsBundle\Twig\Extension\InflectorExtension
-        public: false
-        tags:
-            - { name: twig.extension }
