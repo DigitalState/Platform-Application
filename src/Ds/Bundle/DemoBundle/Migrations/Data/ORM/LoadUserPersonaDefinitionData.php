@@ -37,7 +37,7 @@ class LoadUserPersonaDefinitionData extends AbstractFixture implements Dependent
         $this->setDefinitionExtension($this->container->get('ds.userpersona.migration.extension.definition'));
         //
 
-        $resource = __DIR__.'/../../../Resources/data/user/persona/definitions.yml';
+        $resource = __DIR__.'/../../../Resources/data/user_persona_definitions.yml';
         $this->definitionExtension->import($resource, $objectManager);
     }
 }

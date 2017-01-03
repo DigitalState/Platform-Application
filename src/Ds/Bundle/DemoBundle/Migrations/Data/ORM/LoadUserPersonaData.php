@@ -38,7 +38,7 @@ class LoadUserPersonaData extends AbstractFixture implements DependentFixtureInt
         $this->setPersonaExtension($this->container->get('ds.userpersona.migration.extension.persona'));
         //
 
-        $resource = __DIR__.'/../../../Resources/data/user/persona/personas.yml';
+        $resource = __DIR__.'/../../../Resources/data/user_personas.yml';
         $this->personaExtension->importData($resource, $objectManager);
     }
 }

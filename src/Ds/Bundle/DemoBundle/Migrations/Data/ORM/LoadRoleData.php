@@ -37,7 +37,7 @@ class LoadRoleData extends AbstractFixture implements DependentFixtureInterface,
         $this->setRoleExtension($this->container->get('ds.user.migration.extension.role'));
         //
 
-        $resource = __DIR__.'/../../../Resources/data/user/roles.yml';
+        $resource = __DIR__.'/../../../Resources/data/roles.yml';
         $this->roleExtension->import($resource, $objectManager);
     }
 }

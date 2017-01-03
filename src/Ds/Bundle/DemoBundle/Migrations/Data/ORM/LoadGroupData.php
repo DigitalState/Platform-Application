@@ -37,7 +37,7 @@ class LoadGroupData extends AbstractFixture implements DependentFixtureInterface
         $this->setGroupExtension($this->container->get('ds.user.migration.extension.group'));
         //
 
-        $resource = __DIR__.'/../../../Resources/data/user/groups.yml';
+        $resource = __DIR__.'/../../../Resources/data/groups.yml';
         $this->groupExtension->import($resource, $manager);
     }
 }

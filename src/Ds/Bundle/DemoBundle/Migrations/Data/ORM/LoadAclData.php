@@ -37,7 +37,7 @@ class LoadAclData extends AbstractFixture implements DependentFixtureInterface, 
         $this->setAclExtension($this->container->get('ds.security.migration.extension.acl'));
         //
 
-        $resource = __DIR__.'/../../../Resources/data/user/acl.yml';
+        $resource = __DIR__.'/../../../Resources/data/acl.yml';
         $this->aclExtension->import($resource, $objectManager);
     }
 }

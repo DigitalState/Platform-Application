@@ -39,7 +39,7 @@ class LoadUserData extends AbstractFixture implements DependentFixtureInterface,
         $this->setUserExtension($this->container->get('ds.user.migration.extension.user'));
         //
 
-        $resource = __DIR__.'/../../../Resources/data/user/users.yml';
+        $resource = __DIR__.'/../../../Resources/data/users.yml';
         $this->userExtension->import($resource, $manager);
     }
 }
