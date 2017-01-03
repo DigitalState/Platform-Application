@@ -1,0 +1,33 @@
+roles:
+    -
+        role: ROLE_USER_MANAGER
+        label: User Manager
+    -
+        role: ROLE_INDIVIDUAL
+        label: Individual
+    -
+        role: ROLE_EMPLOYEE
+        label: Employee
+    -
+        role: ROLE_SERVICE_MANAGER
+        label: Service Manager
+    -
+        role: ROLE_RECORD_MANAGER
+        label: Record Manager
+    -
+        role: ROLE_NOTIFICATION_MANAGER
+        label: Notification Manager
+    -
+        role: ROLE_COMMUNICATION_MANAGER
+        label: Communication Manager
+    -
+        role: ROLE_CASE_MANAGER
+        label: Case Manager
+    -
+        role: ROLE_BPM_SYSTEM
+        label: Bpm System
+    -
+        role: ROLE_ASSET_MANAGER
+        label: Asset Manager
+
+prototype: []
