@@ -75,6 +75,10 @@ assets_version_strategy (time_hash):
 * `installed` Whether the platform has been installed or not.
 * `assets_*` Assets-related configurations.
 
+Generate the autoload file by running the composer dump-autoload command.
+
+`./composer.phar dump-autoload -o`
+
 ### Step 4
 
 Install the platform by running the ORO install command.
