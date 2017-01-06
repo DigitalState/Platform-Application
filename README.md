@@ -20,7 +20,7 @@ For the purpose of this guide, let's assume the following:
 
 ### Step 1
 
-Download [the source code](https://github.com/DigitalState/Platform/archive/master.zip) and extract it in the base directory `/srv/ds-platform/`. The `web/` folder found in the source code should align with your web root, e.g. `/srv/ds-platform/web/`.
+Download [the source code](https://github.com/DigitalState/Platform-Application/archive/master.zip) and extract it in the base directory `/srv/ds-platform/`. The `web/` folder found in the source code should align with your web root, e.g. `/srv/ds-platform/web/`.
 
 ### Step 2
 
