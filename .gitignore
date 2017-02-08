@@ -1,0 +1,71 @@
+# Cache and logs (Symfony2)
+/application/app/cache/*
+/application/app/logs/*
+!/application/app/cache/.gitkeep
+!/application/app/logs/.gitkeep
+
+# Email spool folder
+/application/app/spool/*
+
+# Cache, session files and logs (Symfony3)
+/application/var/cache/*
+/application/var/logs/*
+/application/var/sessions/*
+!/application/var/cache/.gitkeep
+!/application/var/logs/.gitkeep
+!/application/var/sessions/.gitkeep
+
+# Parameters
+/application/app/config/parameters.yml
+/application/app/config/parameters.ini
+/application/app/config/parameters_test.yml
+
+# Managed by Composer
+/application/app/bootstrap.php.cache
+/application/var/bootstrap.php.cache
+/application/bin/*
+!bin/console
+!bin/symfony_requirements
+/application/vendor/
+
+# Assets and user uploads
+/application/web/bundles/
+/application/web/css
+/application/web/js
+/application/web/uploads/users/*
+/application/web/media/cache
+/application/web/build.js
+
+# Assets managed by Bower
+/application/web/assets/vendor/
+
+# PHPUnit
+/application/app/phpunit.xml
+/application/phpunit.xml
+/application/phpunit.phar
+
+# Build data
+/application/build/
+/build/
+
+# Composer PHAR
+/application/composer.phar
+
+# Backup entities generated with doctrine:generate:entities command
+*/Entity/*~
+
+# Node
+/application/node_modules
+
+# Behat
+/application/behat.yml
+
+# Adminer
+/web/adminer.php
+
+# PHPStorm
+/.idea/
+
+# Apache
+/error.log
+/access.log
