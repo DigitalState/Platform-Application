@@ -1,63 +1,64 @@
 # Cache and logs (Symfony2)
-/app/cache/*
-/app/logs/*
-!app/cache/.gitkeep
-!app/logs/.gitkeep
+/application/app/cache/*
+/application/app/logs/*
+!/application/app/cache/.gitkeep
+!/application/app/logs/.gitkeep
 
 # Email spool folder
-/app/spool/*
+/application/app/spool/*
 
 # Cache, session files and logs (Symfony3)
-/var/cache/*
-/var/logs/*
-/var/sessions/*
-!var/cache/.gitkeep
-!var/logs/.gitkeep
-!var/sessions/.gitkeep
+/application/var/cache/*
+/application/var/logs/*
+/application/var/sessions/*
+!/application/var/cache/.gitkeep
+!/application/var/logs/.gitkeep
+!/application/var/sessions/.gitkeep
 
 # Parameters
-/app/config/parameters.yml
-/app/config/parameters.ini
-/app/config/parameters_test.yml
+/application/app/config/parameters.yml
+/application/app/config/parameters.ini
+/application/app/config/parameters_test.yml
 
 # Managed by Composer
-/app/bootstrap.php.cache
-/var/bootstrap.php.cache
-/bin/*
+/application/app/bootstrap.php.cache
+/application/var/bootstrap.php.cache
+/application/bin/*
 !bin/console
 !bin/symfony_requirements
-/vendor/
+/application/vendor/
 
 # Assets and user uploads
-/web/bundles/
-/web/css
-/web/js
-/web/uploads/users/*
-/web/media/cache
-/web/build.js
+/application/web/bundles/
+/application/web/css
+/application/web/js
+/application/web/uploads/users/*
+/application/web/media/cache
+/application/web/build.js
 
 # Assets managed by Bower
-/web/assets/vendor/
+/application/web/assets/vendor/
 
 # PHPUnit
-/app/phpunit.xml
-/phpunit.xml
-/phpunit.phar
+/application/app/phpunit.xml
+/application/phpunit.xml
+/application/phpunit.phar
 
 # Build data
+/application/build/
 /build/
 
 # Composer PHAR
-/composer.phar
+/application/composer.phar
 
 # Backup entities generated with doctrine:generate:entities command
 */Entity/*~
 
 # Node
-/node_modules
+/application/node_modules
 
 # Behat
-/behat.yml
+/application/behat.yml
 
 # Adminer
 /web/adminer.php
