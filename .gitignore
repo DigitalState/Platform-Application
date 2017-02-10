@@ -61,11 +61,11 @@
 /application/behat.yml
 
 # Adminer
-/web/adminer.php
+/application/web/adminer.php
 
 # PHPStorm
 /.idea/
 
 # Apache
-/error.log
-/access.log
+/application/error.log
+/application/access.log
