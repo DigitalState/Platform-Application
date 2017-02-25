@@ -27,6 +27,7 @@
 !bin/console
 !bin/symfony_requirements
 /vendor/
+/composer_dev.lock
 
 # Assets and user uploads
 /web/bundles/
