@@ -16,7 +16,7 @@
         }
     },
     "require": {
-        "digitalstate/platform": "dev-master"
+        "digitalstate/platform": "dev-develop"
     },
     "require-dev": {
         "sensio/generator-bundle": "3.1.2",
